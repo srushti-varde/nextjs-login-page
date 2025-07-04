@@ -22,7 +22,7 @@ export default function LoginPage() {
     }
 
     setTimeout(() => {
-      if (email === "text@text.com" && password === "password") {
+      if (email === "test@example.com" && password === "password") {
         alert("✅ Login successful!");
       } else {
         setError("❌ Invalid email or password!");
